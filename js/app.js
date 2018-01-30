@@ -72,26 +72,9 @@ $(document).ready(function(e){
 
 });
 //Splash Page End//
-//FIREBASE//
-// var config = {
-//   apiKey: "",
-//   authDomain: "",
-//   databaseURL: "",
-//   projectId: "",
-//   storageBucket: "",
-//   messagingSenderId: ""
-// };
-// firebase.initializeApp(config);
-
 //NAVIGATION//
 
-//showing home//
 
-
-
-
-
-//showing profile//
 // $profileBtn.click(function() {
 //
 // console.log('profile');

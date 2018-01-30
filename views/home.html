@@ -61,7 +61,7 @@
                 <form id="create-post">
                   <div class="form-group">
                     <label for="post" class="new-post">Your post</label>
-                    <textarea id="new-post" class="form-control" placeholder="Sharing..." rows="3" autofocus></textarea>
+                    <textarea id="new-post" maxlength="300" class="form-control" placeholder="Sharing..." rows="3" autofocus></textarea>
                   </div>
                   <div class="row mt-20">
                     <div class="col s6 m3 l2">
@@ -73,7 +73,7 @@
                   </div>
                   <div class="row">
                     <div class="col s6 m3">
-                      <button id="post-btn" class="btn btn-flat left mt-20" disabled >Share</button>
+                      <button id="post-btn" class="btn btn-flat left mt-20" type="button" disabled >Share</button>
                     </div>
                   </div>
                 </form>
@@ -90,7 +90,7 @@
             <div class="card-panel bkg-white">
               <div class="card-title">
                 <small><span class="left">Posted by
-                  <img class="user-pic"/>user pic
+                  <img class="user-pic"/ src="">user pic
                   <p id="posted-by" class="post-title text-gray">Dummy Name</p></span></small>
                   <small><span class="right">Date
                     <p id="post-date" class="post-title text-gray">Dummy Date</p></span></small>
@@ -159,6 +159,6 @@
       <script src="../js/jquery.js"></script>
       <script src="../js/jquery.min.js"></script>
       <script src="../js/materialize.js"></script>
-      <script src="../js/app.js"></script>
+      <script src="../js/appHome.js"></script>
     </body>
     </html>
