@@ -15,6 +15,7 @@ $(document).ready(function(e){
   $('.modal').modal();
 
 //Activating button SHARE//
+//hola
   $('#post-btn').prop('disabled', true);
      $('#new-post').keyup(function() {
         if($(this).val() != '') {
