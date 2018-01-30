@@ -60,6 +60,7 @@ $(document).ready(function(e){
 
       var finalTemplate = '';
       var valImage = $("input[name='file']").val();
+      console.log(valImage);
       var newValImage = valImage.replace("C:\\fakepath\\", "")
       finalTemplate += template.replace("--srcImage--", newValImage)
       //.replace("--srcUserPic--","../assets/images/logolab.jpg")
