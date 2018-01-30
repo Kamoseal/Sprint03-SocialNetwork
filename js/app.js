@@ -50,11 +50,16 @@ $(document).ready(function(e){
 //showing home//
 
 
-$logingBtn.click(function() {
+$logingBtn.click(function(e) {
+  e.preventDefault();
+  var userName = data.querySelector('input[type="text"]');
+  var password = data.querySelector('input[type="password"]');
 
-console.log('home');
-
-
+  if (userName.value === 'Kamoseal' && password.value === 'KarlaSerna'){
+    window.location.href = 'home.html'
+  } else {
+    alert('Ingresa una cuenta válida');
+  }
 });
 
 
