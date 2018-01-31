@@ -58,11 +58,41 @@ $(document).ready(function(e){
               '</div>'+
             '</div>';
 
+
+      var option='';
+      
+      $("#modalPicture").click(function () {
+        console.log("hola");
+      })
+      // $("#btnGoUp").click(function() {
+      //     console.log("hola1");
+      //     if ($(".optionUserOne").click()) {
+      //     var imgOne = '../assets/imagesBtn/letrasFive.jpg';
+      //       option+=imgOne;
+      //       console.log("hola");
+      //     } else if ($(".optionUseTwo").click()) {
+      //       var imgTwo = $("img[name='optionUserTwo']".val())
+      //       localStorage.setItem(option);
+      //     } else if ($(".optionUseThree").click()) {
+      //       var imgThree = $("img[name='optionUserThree']".val())
+      //       option+=imgThree;
+      //     } else if ($(".optionUserFour").click()) {
+      //       var imgFour = $("img[name='optionUserFour']".val())
+      //       option+=imgFour;
+      //     } else if ($(".optionUseFive").click()) {
+      //       var imgFive = $("img[name='optionUserFive']".val())
+      //       option+=imgFive;
+      //     }else if ($(".optionUseTwo").click()) {
+      //       var imgSix = $("img[name='optionUserSix']".val())
+      //       option+=imgSix
+      //     }
+      // })
+
       var finalTemplate = '';
-      var valImage = $("input[name='file']").val();
-      console.log(valImage);
-      var newValImage = valImage.replace("C:\\fakepath\\", "")
-      finalTemplate += template.replace("--srcImage--", newValImage)
+      // var valImage = $("input[name='file']").val();
+      // console.log(valImage);
+      //var newValImage = valImage.replace("C:\\fakepath\\", "")
+      finalTemplate += template.replace("--srcImage--", option);
       //.replace("--srcUserPic--","../assets/images/logolab.jpg")
 
 

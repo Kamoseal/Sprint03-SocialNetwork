@@ -66,7 +66,29 @@
                   <div class="row mt-20">
                     <div class="col s6 m3 l2">
                       <label id="upload" for="file" class="btn btn-flat  mb-20">
-                        <input type="file" name="file" value="" class="upload right" id="file" accept="image/*">
+                        <!-- Modal picture -->
+                      <a class="waves-effect waves-light btn modal-trigger" href="#modalPicture">Seleccionar archivo</a>
+
+                      <!-- Modal picture Structure -->
+                      <div id="modalPicture" class="modal bottom-sheet">
+                        <div class="modal-content">
+                          <h4>Elige una Imagen</h4>
+                          <form class="chooseOption" action="index.html" method="post">
+                            <p class="collection">
+                              <span id="btnOne" class="collection-item avatar btn"><img class="circle optionUserOne" src="..\assets\imagesBtn\letrasOne.jpg" alt=""></span>
+                              <span class="collection-item avatar btn"><img class="circle" name="optionUserTwo" src="..\assets\imagesBtn\letrasTwo.jpg" alt=""></span>
+                              <span class="collection-item avatar btn"><img class="circle" name="optionUserThree" src="..\assets\imagesBtn\letrasThree.jpg" alt=""></span>
+                              <span class="collection-item avatar btn"><img class="circle" name="optionUserFour" src="..\assets\imagesBtn\letrasFour.jpg" alt=""></span>
+                              <span class="collection-item avatar btn"><img class="circle" name="optionUserFive" src="..\assets\imagesBtn\letrasFive.jpg" alt=""></span>
+                              <span class="collection-item avatar btn"><img class="circle" name="optionUserSix" src="..\assets\imagesBtn\letrasSix.jpg" alt=""></span>
+                            </p>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <a id="btnGoUp" href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Comparte</a>
+                        </div>
+                      </div>
+                        <!--<input type="file" name="file" value="" class="upload right" id="file" accept="image/*">-->
                         <i class="fa fa-picture" aria-hidden="true"></i>
                       </label>
                     </div>
@@ -156,7 +178,7 @@
 
       <!--SCRIPTS-->
       <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
-      <script src="../js/jquery.js"></script>
+      <script src="..js/jquery.js"></script>
       <script src="../js/jquery.min.js"></script>
       <script src="../js/materialize.js"></script>
       <script src="../js/appHome.js"></script>
