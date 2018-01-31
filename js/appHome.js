@@ -59,11 +59,9 @@ $(document).ready(function(e){
             '</div>';
 
 
-      var option='';
-      
-      $("#modalPicture").click(function () {
-        console.log("hola");
-      })
+      var option='../assets/imagesBtn/letrasFive.jpg';
+      // $('#modalPicture').modal();
+      // });
       // $("#btnGoUp").click(function() {
       //     console.log("hola1");
       //     if ($(".optionUserOne").click()) {
