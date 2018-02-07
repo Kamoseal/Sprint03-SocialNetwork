@@ -59,9 +59,19 @@ $(document).ready(function(e){
             '</div>';
 
 
-      var option='../assets/imagesBtn/letrasFive.jpg';
-      // $('#modalPicture').modal();
-      // });
+      var option='';
+      var letrasOne = $("#btnOne")
+      var letrasOneImg = "../assets/imagesBtn/letrasOne.jpg";
+      localStorage.setItem(letrasOneImg, letrasOne);
+      var letrasTwo = "../assets/imagesBtn/letrasTwo.jpg";
+      var letrasThree = "../assets/imagesBtn/letrasThree.jpg";
+      var letrasFour = "../assets/imagesBtn/letrasFour.jpg";
+
+      // $('#btnGoUp').click(function () {
+      //   console.log("hola");
+      // })
+
+
       // $("#btnGoUp").click(function() {
       //     console.log("hola1");
       //     if ($(".optionUserOne").click()) {
