@@ -1,4 +1,7 @@
 # Red Social
+
+![Red_lettering](https://raw.githubusercontent.com/Kamoseal/Sprint03-SocialNetwork/master/docs/ux/wireframes/home.jpg)
+
 * **Track:** _Common Core_
 * **Sprint 03:** _JQuery_
 * **Unidad:** _04_
